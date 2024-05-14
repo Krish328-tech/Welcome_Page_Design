@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLORZ DEPARTMENTAL STORE</title>
+    <link rel="stylesheet" href="Registration FEE.css">
+    <link rel="icon" type="logo3.jpg" href="logo3.jpg">
+    <script src="Registration FEE.js">
+    </script>
+</head>
+<body class="background" background="Registration.jpg">
+    <form onsubmit="return validatePasswords()">
+        <div align="center">
+            <h1>Register Here</h1>
+            <h3>Welcome to our Departmental Store</h3> <br>
+        </div>
+        <div align="center" font face="cursive" id="form">
+            Username<br><input type="text" placeholder="Username is your Roll No." required maxlength="10"><br> <br>
+            Mobile No. <br>
+            <select name="Country code" style="width:0.5cm;">
+                <option value="a">+91 India</option>
+                <option value="a">+92 Pakistan</option>
+                <option value="a">+977 Nepal</option>
+                <option value="a">+1 Canada</option>
+            </select><input type="number" pattern="[0-9]{10}" max="" maxlength="10" placeholder="Enter Mobile No." required><br> <br>
+            Enter Date of Birth <br><input type="date" placeholder="Select D.O.B" required value="Enter Your D.O.B" min="1940-01-01" max="2023-12-31"> <br><br>
+            Create Password <br><input type="password" name="password" id="password" maxlength="10" placeholder="Enter password" required> <br><br>
+            Confirm Password <br> <input type="password" name="confirmPassword" id="confirmPassword" maxlength="10" placeholder="Confirm Password" required><br><br>
+        </div>
+        <div align="center" id="a" aria-rowspan="2" style="border: double;">
+            <input type="submit" aria-placeholder="40" value="Register Here" id="a" align="center"> 
+        </div>
+    </form>
+</body>
+</html>

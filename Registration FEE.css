@@ -1,0 +1,89 @@
+/* Styles for element with id 'a' */
+#a {
+    vertical-align: middle;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 0%;
+    margin: auto;
+    font-size: large;
+    font-size: xx-large;
+    height: auto;
+    width: fit-content;
+    align-content: center;
+    width: 210px;
+    box-shadow: 10px 5px 8px;
+    font-family: Aharoni;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: indianred;
+    align-items: center;
+}
+
+/* Styles for the body of the document */
+body {
+    background-size: cover;
+}
+
+/* Styles for elements with class 'background' */
+.background {
+    background-image: url(Registration.jpg);
+}
+
+/* Styles for input elements */
+input {
+    background-color: rgba(245, 245, 220, 0.137);
+}
+
+/* Styles for select elements */
+select {
+    background-color: rgba(245, 245, 220, 0.137);
+}
+
+/* Styles for elements with class 'p' */
+.p {
+    font-family: cursive;
+    align-content: center;
+}
+
+/* Styles for element with id 'form' */
+#form {
+    border: solid;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    align-tracks: center;
+    border-radius: 10px;
+    background-color: rgb(135, 143, 137.1);
+    float: center;
+    margin-left: 43%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    box-shadow: 2px;
+    margin-bottom: 10px;
+}
+
+/* Styles for h1 elements */
+h1 {
+    border: double;
+    padding: 10px;
+    margin-left: auto;
+    padding-left: 0%;
+    margin: auto;
+    width: fit-content;
+    background-color: silver;
+    box-shadow: silver 10px 10px 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+/* Styles for h3 elements */
+h3 {
+    text-decoration: solid;
+    text-shadow: #00fe6100;
+    font-display: unset;
+    color: silver;
+}

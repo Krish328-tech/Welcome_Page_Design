@@ -1,0 +1,62 @@
+*{
+    color: silver;
+}
+.topbar {
+    border: 2px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;  
+
+}
+
+.classifications {
+    border: 2px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.p {
+    height: 350px;
+    width: 70px;
+    justify-content: space-around;
+}
+
+#s {
+    display: flex;
+    width: fit-content;
+    height: 370px;
+}
+
+.custom-carousel-container {
+    max-width: 900px;
+    margin: auto;
+    height: 500px;
+}
+
+body{
+    background-image: silver;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding: 35px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.banner{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.76)),;
+    background-size: cover;
+    background-position: center;
+    background: fixed;
+}
+.a:link{
+    text-decoration: none;
+    color: silver;
+    font-weight: bolder;
+}
